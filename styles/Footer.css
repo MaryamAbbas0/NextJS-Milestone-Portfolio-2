@@ -1,0 +1,32 @@
+.footer-container {
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  background-color: #00cfff;
+  color: black;
+  text-align: center;
+  font-size: 1rem; 
+  line-height: 1.5;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    font-size: 0.875rem; 
+    padding: 1rem 0; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    font-size: 1rem; 
+    padding: 1.25rem 0;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .footer-container {
+    font-size: 1rem; 
+    padding: 1.5rem 0; 
+  }
+}
